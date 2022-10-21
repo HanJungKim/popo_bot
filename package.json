@@ -1,0 +1,15 @@
+{
+  "name": "popobot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "popo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node popo.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
