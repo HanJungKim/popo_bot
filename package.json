@@ -1,15 +1,31 @@
 {
   "name": "popobot",
   "version": "1.0.0",
-  "description": "",
+  "description": "popo server bot",
   "main": "popo.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "discord.js": "^12.5.3",
+    "mathjs": "^6.6.4",
+    "node-fetch": "^2.6.0",
+    "ytdl-core": "^2.0.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node popo.js"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "discord.js": "^12.5.3"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HanJungKim/popo_bot.git"
+  },
+  "keywords": [
+    "discord",
+    "javascript",
+    "nodejs"
+  ],
+  "author": "Marshall K",
+  "bugs": {
+    "url": "https://github.com/HanJungKim/popo_bot/issues"
+  },
+  "homepage": "https://github.com/HanJungKim/popo_bot#readme"
 }
